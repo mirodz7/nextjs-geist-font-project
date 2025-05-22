@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Almmr Lab</string>
+    <string name="app_subtitle">Perfume Development Studio</string>
+    <string name="app_logo">App Logo</string>
+
+    <!-- Menu Items -->
+    <string name="menu_perfume_studio">Perfume Studio</string>
+    <string name="menu_raw_materials">Raw Materials</string>
+    <string name="menu_manufacturers">Manufacturers</string>
+    <string name="menu_registration">Registration</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_export">Export</string>
+    <string name="menu_language">Language</string>
+    <string name="menu_theme">Theme</string>
+    <string name="menu_backup">Backup</string>
+    <string name="menu_header_tools">Tools</string>
+    <string name="menu_header_settings">Settings</string>
+
+    <!-- Titles -->
+    <string name="title_formula_detail">Formula Details</string>
+    <string name="title_material_detail">Material Details</string>
+    <string name="title_manufacturer_detail">Manufacturer Details</string>
+    <string name="title_perfume_detail">Perfume Details</string>
+    <string name="title_create_formula">Create New Formula</string>
+
+    <!-- Actions -->
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_archive">Archive</string>
+    <string name="action_duplicate">Duplicate</string>
+    <string name="action_export">Export</string>
+
+    <!-- Status -->
+    <string name="offline_mode">Offline Mode</string>
+    <string name="formula_duplicated">Formula duplicated successfully</string>
+    <string name="formula_archived">Formula archived successfully</string>
+    <string name="archive_formula_title">Archive Formula</string>
+    <string name="archive_formula_message">Are you sure you want to archive this formula?</string>
+
+    <!-- Filters -->
+    <string name="filter_draft">Draft</string>
+    <string name="filter_development">Development</string>
+    <string name="filter_testing">Testing</string>
+    <string name="filter_approved">Approved</string>
+    <string name="filter_production">Production</string>
+    <string name="filter_top_notes">Top Notes: %d</string>
+    <string name="filter_middle_notes">Middle Notes: %d</string>
+    <string name="filter_base_notes">Base Notes: %d</string>
+
+    <!-- Empty States -->
+    <string name="empty_formulas">No formulas found</string>
+    <string name="empty_materials">No materials found</string>
+    <string name="empty_manufacturers">No manufacturers found</string>
+    <string name="empty_search_results">No results found</string>
+
+    <!-- Error Messages -->
+    <string name="error_generic">An error occurred</string>
+    <string name="error_loading">Error loading data</string>
+    <string name="error_saving">Error saving data</string>
+    <string name="error_network">Network error</string>
+    <string name="error_permission">Permission denied</string>
+    <string name="error_required">This field is required</string>
+
+    <!-- Form Labels -->
+    <string name="hint_formula_name">Formula Name</string>
+    <string name="hint_formula_description">Description</string>
+    <string name="hint_perfumer_name">Perfumer Name</string>
+    <string name="hint_keywords">Add Keywords</string>
+    <string name="keywords_helper_text">Add keywords to help with AI-powered note suggestions</string>
+
+    <!-- Time -->
+    <string name="today">Today</string>
+    <plurals name="days_ago">
+        <item quantity="one">%d day ago</item>
+        <item quantity="other">%d days ago</item>
+    </plurals>
+    <string name="formula_details_format">Created by %1$s • Version %2$.1f • Last modified: %3$s</string>
+</resources>
