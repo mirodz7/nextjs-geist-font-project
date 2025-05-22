@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_perfume_studio">
+
+    <!-- Perfume Studio -->
+    <fragment
+        android:id="@+id/nav_perfume_studio"
+        android:name="com.almmrlab.ui.studio.PerfumeStudioFragment"
+        android:label="@string/menu_perfume_studio">
+        <action
+            android:id="@+id/action_studio_to_formula_detail"
+            app:destination="@id/formulaDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/formulaDetailFragment"
+        android:name="com.almmrlab.ui.studio.FormulaDetailFragment"
+        android:label="@string/title_formula_detail">
+        <argument
+            android:name="formulaId"
+            app:argType="long" />
+    </fragment>
+
+    <!-- Raw Materials -->
+    <fragment
+        android:id="@+id/nav_raw_materials"
+        android:name="com.almmrlab.ui.materials.RawMaterialsFragment"
+        android:label="@string/menu_raw_materials">
+        <action
+            android:id="@+id/action_materials_to_material_detail"
+            app:destination="@id/materialDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/materialDetailFragment"
+        android:name="com.almmrlab.ui.materials.MaterialDetailFragment"
+        android:label="@string/title_material_detail">
+        <argument
+            android:name="materialId"
+            app:argType="long" />
+    </fragment>
+
+    <!-- Manufacturers -->
+    <fragment
+        android:id="@+id/nav_manufacturers"
+        android:name="com.almmrlab.ui.manufacturers.ManufacturersFragment"
+        android:label="@string/menu_manufacturers">
+        <action
+            android:id="@+id/action_manufacturers_to_manufacturer_detail"
+            app:destination="@id/manufacturerDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/manufacturerDetailFragment"
+        android:name="com.almmrlab.ui.manufacturers.ManufacturerDetailFragment"
+        android:label="@string/title_manufacturer_detail">
+        <argument
+            android:name="manufacturerId"
+            app:argType="long" />
+    </fragment>
+
+    <!-- Registration -->
+    <fragment
+        android:id="@+id/nav_registration"
+        android:name="com.almmrlab.ui.registration.RegistrationFragment"
+        android:label="@string/menu_registration">
+        <action
+            android:id="@+id/action_registration_to_perfume_detail"
+            app:destination="@id/perfumeDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/perfumeDetailFragment"
+        android:name="com.almmrlab.ui.registration.PerfumeDetailFragment"
+        android:label="@string/title_perfume_detail">
+        <argument
+            android:name="perfumeId"
+            app:argType="long" />
+    </fragment>
+
+    <!-- Tools -->
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="com.almmrlab.ui.search.SearchFragment"
+        android:label="@string/menu_search" />
+
+    <fragment
+        android:id="@+id/nav_export"
+        android:name="com.almmrlab.ui.export.ExportFragment"
+        android:label="@string/menu_export" />
+
+    <!-- Settings -->
+    <fragment
+        android:id="@+id/nav_language"
+        android:name="com.almmrlab.ui.settings.LanguageSettingsFragment"
+        android:label="@string/menu_language" />
+
+    <fragment
+        android:id="@+id/nav_theme"
+        android:name="com.almmrlab.ui.settings.ThemeSettingsFragment"
+        android:label="@string/menu_theme" />
+
+    <fragment
+        android:id="@+id/nav_backup"
+        android:name="com.almmrlab.ui.settings.BackupSettingsFragment"
+        android:label="@string/menu_backup" />
+
+</navigation>
