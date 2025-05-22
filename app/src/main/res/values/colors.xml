@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1A1A1A</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FFB300</color>
+    <color name="colorSecondary">#424242</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorBackground">#F5F5F5</color>
+    <color name="colorError">#B00020</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorOnSecondary">#FFFFFF</color>
+    <color name="colorOnBackground">#000000</color>
+    <color name="colorOnSurface">#000000</color>
+    <color name="colorOnError">#FFFFFF</color>
+    
+    <!-- Status Colors -->
+    <color name="status_draft">#757575</color>
+    <color name="status_development">#2196F3</color>
+    <color name="status_testing">#FF9800</color>
+    <color name="status_approved">#4CAF50</color>
+    <color name="status_production">#9C27B0</color>
+
+    <!-- Note Type Colors -->
+    <color name="note_top">#E91E63</color>
+    <color name="note_middle">#00BCD4</color>
+    <color name="note_base">#795548</color>
+
+    <!-- Chart Colors -->
+    <color name="chart_line">#2196F3</color>
+    <color name="chart_bar">#4CAF50</color>
+    <color name="chart_pie">#FF9800</color>
+    <color name="chart_grid">#BDBDBD</color>
+
+    <!-- Utility Colors -->
+    <color name="divider">#EEEEEE</color>
+    <color name="ripple">#33000000</color>
+    <color name="scrim">#52000000</color>
+    <color name="overlay">#80000000</color>
+</resources>
